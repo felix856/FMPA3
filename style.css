@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #FFFFFF; /* Cor de fundo branca */
+}
+
+header {
+    background-color: #007BFF; /* Cor de fundo azul */
+    padding: 20px 0;
+}
+
+header h1 {
+    color: #3eab38; /* Cor do texto branco */
+    text-align: center;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #3eab38; /* Cor do texto branco */
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3; /* Cor de fundo azul mais escura */
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content h2 {
+    color: #333; /* Cor do texto padrão */
+}
+
+.content p {
+    color: #666; /* Cor do texto cinza */
+}
+
+   
+  
+   
+.bg-image {
+    /* Faz com que a imagem preencha toda a página */
+    background-image: url('sua-imagem.jpg'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}

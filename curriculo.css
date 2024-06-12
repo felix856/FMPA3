@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#menuhorizontal {
+    background-color: #007BFF;
+    color: #3eab38;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#menuhorizontal ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#menuhorizontal > ul > li {
+    display: inline-block;
+    position: relative;
+}
+
+#menuhorizontal ul li a {
+    color: #3eab38;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background .3s;
+}
+
+#menuhorizontal ul li a:hover {
+    background-color: #2d56c7;
+}
+
+#menuhorizontal ul li .submenu,
+#menuhorizontal ul li .subcontato {
+    display: none;
+    position: absolute;
+    background-color: #007BFF;
+    width: 200px;
+    z-index: 1;
+}
+
+#menuhorizontal ul li:hover .submenu,
+#menuhorizontal ul li:hover .subcontato {
+    display: block;
+}
+
+#menuhorizontal ul li .submenu li,
+#menuhorizontal ul li .subcontato li {
+    display: block;
+    text-align: left;
+}
+
+#menuhorizontal ul li .submenu li a,
+#menuhorizontal ul li .subcontato li a {
+    display: block;
+    padding: 10px 20px;
+}
+
+#main-content {
+    padding: 20px;
+}
+
+#profile-image {
+    width: 225px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+p {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+a {
+    color: #2d56c7;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #1a3a85;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  footer a:hover, footer a:focus {
+    color: #2d56c7;
+    outline: none;
+  }
+  
